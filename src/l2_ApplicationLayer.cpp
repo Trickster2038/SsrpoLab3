@@ -1,7 +1,6 @@
 #include "hw/l2_ApplicationLayer.h"
 
 using namespace std;
-// _out.Output(("Некорректное количество аргументов команды view");
 
 bool Application::performCommand(const vector<string> & args)
 {

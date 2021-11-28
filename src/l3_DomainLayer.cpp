@@ -2,11 +2,6 @@
 
 using namespace std;
 
-// bool Person::invariant() const
-// {
-//     return _year_of_birth >= MIN_YEAR_OF_BIRTH && _year_of_birth <= MAX_YEAR_OF_BIRTH && !_first_name.empty() && _first_name.size() <= MAX_NAME_LENGTH && !_last_name.empty() && _last_name.size() <= MAX_NAME_LENGTH;
-// }
-
 const string &Converter::toString(Fraction fraction_code)
 {
     return fraction_to_string.find(fraction_code)->second;
@@ -21,12 +16,6 @@ bool Candidate::invariant() const
 {
     return _name.size() <= MAX_FIO_FIELD_LENGTH && _surname.size() <= MAX_FIO_FIELD_LENGTH && _age <= MAX_AGE && _age >= MIN_AGE && !_name.empty() && !_surname.empty();
 }
-
-// Person::Person(const std::string &first_name, const std::string &last_name, uint16_t year_of_birth)
-//     : _first_name(first_name), _last_name(last_name), _year_of_birth(year_of_birth)
-// {
-//     assert(invariant());
-// }
 
 Candidate::Candidate(const string &name, const string &surname, uint age, uint income, Fraction fraction, uint voices)
     : _name(name), _surname(surname), _age(age), _income(income), _fraction(fraction), _voices(voices)
@@ -45,36 +34,12 @@ Candidate::Candidate(const char *name, const char *surname, long unsigned int ag
     assert(invariant());
 }
 
-// const string &Person::getFirstName() const
-// {
-//     return _first_name;
-// }
-
-// const string &Person::getLastName() const
-// {
-//     return _last_name;
-// }
-
-// uint16_t Person::getYearOfBirth() const
-// {
-//     return _year_of_birth;
-// }
-
 const string &Candidate::getName() const { return _name; }
 const string &Candidate::getSurname() const { return _surname; }
 const uint Candidate::getAge() const { return _age; }
 const uint Candidate::getIncome() const { return _income; }
 const Fraction Candidate::getFraction() const { return _fraction; }
 const uint Candidate::getVoices() const { return _voices; }
-
-// bool Person::write(ostream &os)
-// {
-//     writeString(os, _first_name);
-//     writeString(os, _last_name);
-//     writeNumber(os, _year_of_birth);
-
-//     return os.good();
-// }
 
 bool Candidate::write(ostream &os)
 {
@@ -87,15 +52,6 @@ bool Candidate::write(ostream &os)
 
     return os.good();
 }
-
-// shared_ptr<ICollectable> ItemCollector::read(istream &is)
-// {
-//     string first_name = readString(is, MAX_NAME_LENGTH);
-//     string last_name = readString(is, MAX_NAME_LENGTH);
-//     uint16_t year = readNumber<uint16_t>(is);
-
-//     return std::make_shared<Person>(first_name, last_name, year);
-// }
 
 shared_ptr<ICollectable> ItemCollector::read(istream &is)
 {

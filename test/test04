@@ -1,5 +1,4 @@
 #!/bin/bash
 
-# rm hw.data
 ./bin/hw < test/04.test &> test/04.result
 diff test/04.sample test/04.result

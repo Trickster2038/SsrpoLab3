@@ -35,7 +35,6 @@ test:
   - test/test02
   - test/test03
   - test/test04
-  - test/test05
 
 # Используем GitLab Pages для публикации Doxygen-документации
 pages:

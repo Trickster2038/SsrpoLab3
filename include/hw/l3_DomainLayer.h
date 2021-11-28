@@ -4,38 +4,10 @@
 #include "hw/l4_InfrastructureLayer.h"
 #include <map>
 
-// const size_t MAX_NAME_LENGTH = 50;
-// const size_t MIN_YEAR_OF_BIRTH = 1900;
-// const size_t MAX_YEAR_OF_BIRTH = 2019;
-
 const size_t MAX_FIO_FIELD_LENGTH = 30;
 const size_t MAX_FRACTION_LENGTH = 20;
 const uint MIN_AGE = 21;
 const uint MAX_AGE = 120;
-
-// class Person : public ICollectable
-// {
-//     std::string _first_name;
-//     std::string _last_name;
-//     uint16_t _year_of_birth;
-
-// protected:
-//     bool invariant() const;
-
-// public:
-//     Person() = delete;
-//     Person(const Person &p) = delete;
-
-//     Person &operator=(const Person &p) = delete;
-
-//     Person(const std::string &first_name, const std::string &last_name, uint16_t year_of_birth);
-
-//     const std::string &getFirstName() const;
-//     const std::string &getLastName() const;
-//     uint16_t getYearOfBirth() const;
-
-//     virtual bool write(std::ostream &os) override;
-// };
 
 enum Fraction
 {
