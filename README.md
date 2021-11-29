@@ -36,7 +36,7 @@
 
 Проект хранится в репозитории по адресу: [https://bmstu.codes/lsx/mstd/iu6-5-2021/iu6-52b-svastakhov-nvlapshin/l3](https://bmstu.codes/lsx/mstd/iu6-5-2021/iu6-52b-svastakhov-nvlapshin/l3).
 
-Описание классов хранится в репозитории по адресу: [https://lsx.pages.bmstu.codes/mstd/iu6-5-2021/iu6-52b-svastakhov-nvlapshin/l3/index.html] (https://lsx.pages.bmstu.codes/mstd/iu6-5-2021/iu6-52b-svastakhov-nvlapshin/l3/index.html)
+Описание классов хранится в репозитории по адресу: [https://lsx.pages.bmstu.codes/mstd/iu6-5-2021/iu6-52b-svastakhov-nvlapshin/l3/index.html](https://lsx.pages.bmstu.codes/mstd/iu6-5-2021/iu6-52b-svastakhov-nvlapshin/l3/index.html)
 
 ## Диаграмма последовательности
 
